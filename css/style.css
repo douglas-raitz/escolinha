@@ -15,7 +15,7 @@ nav{
 .box_image_nav{
     display: flex;
     flex-direction: column;
-    margin-left: 40px;
+    margin-left: 100px;
     color: #b99532;
     font-weight: 700;
     align-items: center;
@@ -24,7 +24,7 @@ nav{
     margin-left: 45px;
 }
 .nav_links{
-    margin-right: 70px;
+    margin-right: 100px;
 }
 .nav_links a{
     padding: 10px;
@@ -54,6 +54,8 @@ section{
 }
 .container_main{
     padding: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .image_banner p{
     position: absolute;
@@ -71,6 +73,10 @@ section{
     display: flex;
     margin-top: 40px;
 }
+.box_main span{
+    color: #b99532;
+    font-weight: 700;
+}
 .box_main_title{
     display: flex;
     margin-top: 40px;
@@ -86,7 +92,6 @@ section{
     grid-template-columns: auto auto auto auto;
     justify-content: center;
     background-color: #fff;
-    opacity: 1;
 }
 .box_main_products a:hover{
     filter: blur(4px);
@@ -130,8 +135,8 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
     padding: 20px 0;
 }
 .container_footer_infos{
@@ -276,14 +281,14 @@ section{
     color: #fff;
 }
 .footer p{
-    margin-left: 30px;
+    margin-left: 100px;
 }
 /*PAGE PRODUTOS*/
 .container_products{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
 }
 .container_products h2{
@@ -294,7 +299,6 @@ section{
     align-items: flex-start;
     grid-template-columns: auto auto auto;
     background-color: #e0dfdf;
-    margin-left: 50px;
 }
 .box_products a{
     text-align: center;
@@ -306,7 +310,6 @@ section{
     align-items: flex-start;
     margin-top: 40px;
     margin-bottom: 40px;
-    margin-left: 50px;
 }
 .box_title_products h2{
     margin-bottom: 20px;
@@ -319,4 +322,120 @@ section{
     background-size:cover;
     background-position: center;
     margin: 20px;
+}
+.container_help_contato{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.card_products:hover{
+    filter: blur(4px);
+}
+/*Page contact*/
+.box_contact_page{
+    margin-top: 100px;
+    margin-left: 100px;
+    padding: 15px;
+}
+.box_contact_page h2{
+    color: #b99532;
+    margin-bottom: 15px;
+}
+.box_form_contact{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 70vw;
+}
+.box_form_contact span{
+    color: #b99532;
+}
+.box_form_contact hr{
+    border: 1px solid #b99532;
+    margin-bottom: 10px;
+}
+.box_form_contact h1{
+    font-size: 40px;
+    font-family:sans-serif;
+    margin-bottom: 10px;
+}
+.form_contact{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.input_form_contact{
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    padding: 10px;
+}
+.input_form_contact input{
+    width: 34vw;
+    height: 35px;
+    outline: none;
+    
+}
+.input_form_contact input:focus, .text_area:focus{
+    border: 1px solid #b99532;
+}
+.span_required_contact{
+    color: #ff0000 !important;
+}
+.textarea_form_contact{
+    display: flex;
+    flex-direction: column;   
+}
+.btn_form_contact{
+    display: flex;
+    justify-content: center;
+}
+.btn_form_contact button{
+    border:1px solid #b99532;
+    background-color: transparent;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    padding: 8px 70px;
+    color: #b99532;
+    font-weight: 600;
+    border-radius: 2px;
+}
+.btn_form_contact button:hover{
+    background-color: #b99532;
+    color: #fff;
+}
+.text_area{
+    outline: none;
+}
+.container_project{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    align-items: center;
+    width: 100%;
+}
+.box_project_image{
+    margin-left: 50px;
+    padding: 60px;
+    border: 1px solid black;
+}
+.box_project_p{
+    padding: 20px;
+    margin-right: 50px;
+    padding: 60px;
+    border: 1px solid black;
+    font-size: large;
+}
+.box_icons_project{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #b99532;
+}
+.image_leaf{
+    position: relative;
+    bottom: 20px;
+    right: 82px;
 }
